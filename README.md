@@ -6,7 +6,7 @@ Welcome to Sitecore Hackathon 2019.
 
 The Hackathon site can be found at http://www.sitecorehackathon.org/sitecore-hackathon-2019/
 
-The purpose of this repository is to provide a sample which shows how to structure the Hackathon submissions.
+The purpose of this repository is to provide a sample which shows how to structure the Sitecore Hackathon submissions.
 
 
 ## Entry Submission Requirements 
