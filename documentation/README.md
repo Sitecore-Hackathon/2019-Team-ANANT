@@ -8,7 +8,7 @@ Examples of things to include are the following.
 
 ## Summary
 
-**Category:** Hackathon Category
+**Category:** Best use of xConnect and/or Universal Tracker
 
 What is the purpose of your module? What problem does it solve and how does it do that?
 
