@@ -24,9 +24,14 @@ Does your module rely on other Sitecore modules or frameworks?
 
 Provide detailed instructions on how to install the module, and include screenshots where necessary.
 
-1. Use the Sitecore Installation wizard to install the [package](#link-to-package)
-2. ???
-3. Profit
+1. Use the Sitecore 9.1 Installation wizard to install Sitecore [package](#link-to-package)
+2. Create some pages in your Sitecore Installation 
+3. Enable Experience Analytics
+4. Docker up the Latest Version of UserGrid
+5. Enable the MongoDB Sitecore Connector
+6. Update the MongoDB xConnect Connection String to point to your UserGrid Installation
+7. Browse the pages on your Sitecore Site to create Analytical data
+8. Confirm data is being stored in the UserGrid\Cassandra container of the UserGrid Stack
 
 ## Configuration
 
@@ -50,8 +55,7 @@ Remember you are using Markdown, you can provide code samples too:
 
 ## Usage
 
-Usage Documentation Below :
-
+How does the end user use the Module?
 
 
 ## Video
