@@ -1,38 +1,9 @@
-![Hackathon Logo](documentation/images/hackathon.png?raw=true "Hackathon Logo")
+## Summary
 
-# Submission Boilerplate
+Team ANANT chose the xConnect and Universal Tracker category because it combines two of our company's practices : Customer Experience & Data Analytics.  We seek to answer the question of "What is my customer experience doing around the globe in real time?" Currently, there are limited real-time planet scale options for storage when it comes to Sitecore xConnect.  The top two most used options are MongoDB and SQL Server.  MongoDB has very limited scale or real-time analytical streaming options of which more and more companies are choosing to move away from the product and use SQL Server.  SQL Server is very new to noSQL analytical storage and only scales well in the cloud.  It also has few real-time analytical streaming options ( such as data graphing or the ability to see page views in real time around the globe).  
 
-Welcome to Sitecore Hackathon 2019.
+Sitecore has plans to implement Azure CosmosDB as an xConnect storage option, however there is no official connector for xConnect and some customers wish to get a head start on the analytical platforms of the future.  We chose to use the Free Azure CosmosDB Emulator in our demo so customers can create proof of concepts of their analytical engines at Azure.  Once customers are comfortable, they can simply setup Azure CosmosDB and switch the connection strings.
 
-The Hackathon site can be found at http://www.sitecorehackathon.org/sitecore-hackathon-2019/
+**Category:** Best use of xConnect and/or Universal Tracker
 
-The purpose of this repository is to provide a sample which shows how to structure the Sitecore Hackathon submissions.
-
-
-## Entry Submission Requirements 
-
-All teams are required to submit the following as part of their entry submission on or before the end of the Hackathon on **Friday March 1st 2019 at 8PM EST**. The modules should be based on [Sitecore 9.1 (Initial Release)](https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Initial_Release.aspx).
-
-**Failure to meet any of the requirements will result in automatic disqualification.** Please reach out to any of the organisers or judges if you require any clarification.
-
-- Sitecore 9.1 (Initial Release) Module (Module install package)
-   - An installation Sitecore Package (`.zip` or `.update`)
-
-- Module code in a public Git source repository. We will be judging (amongst other things):
-  - Cleanliness of code
-  - Commenting where necessary
-  - Code Structure
-  - Standard coding standards & naming conventions
-
-- Precise and Clear Installation Instructions document (1 – 2 pages)
-- Module usage documentation on [Readme.md](documentation) file on the Git Repository (2 – 5 pages)
-  - Module Purpose
-  - Module Sitecore Hackathon Category
-  - How does the end user use the Module?
-  - Screenshots, etc.
-
-- Create a 2 – 10 minutes video explaining the module’s functionality (A link to youtube video)
-
-  - What problem was solved
-  - How did you solve it
-  - What is the end result
+The purpose of our module is to illustrate ways in which real-time hybrid cloud options can be added to xConnect.  xConnect is a powerful concept but presents very few options ( mainly 2 ) when it comes to analytical storage.  This can limit IT teams and Data Teams in their pursuit of learning what the user is doing in real time between clouds.  In many cases, it can be extremely expensive to support scaled out MongoDB or planet scaled SQL Server on Azure or AWS.  Our solution presents the ability to get started with Microsoft's true Planet Scale Real-Time Database.  Customers can preview how their Sitecore Installations would hold up on Azure plus take advantage of CosmosDB's advanced data operations.
