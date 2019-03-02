@@ -24,7 +24,7 @@ Does your module rely on other Sitecore modules or frameworks?
 
 Provide detailed instructions on how to install the module, and include screenshots where necessary.
 
-1. Use the Sitecore 9.1 Installation wizard to install Sitecore [package](#link-to-package)
+1. Use the Sitecore 9.1 Installation wizard to install Sitecore [package](#https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Initial_Release.aspx)
 2. Create some pages in your Sitecore Installation 
 3. Enable Experience Analytics
 4. Docker up the Latest Version of UserGrid
