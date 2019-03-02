@@ -27,25 +27,22 @@ Provide detailed instructions on how to install the module, and include screensh
 1. Use the Sitecore 9.1 Installation wizard to install Sitecore [package](https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Initial_Release.aspx)
 2. Create some pages in your Sitecore Installation 
 3. Enable Experience Analytics
-4. Docker up the Latest Version of Azure CosmosDB Emulator 
+4. [Docker](https://hub.docker.com/r/microsoft/azure-cosmosdb-emulator/) up the Latest Version of Azure CosmosDB Emulator or install manually here [package](https://aka.ms/cosmosdb-emulator)
 5. Enable the MongoDB Sitecore xConnect Connector
-6. Enable the MongoDB Azure CosmosDB emulator 
+6. Enable the MongoDB Azure CosmosDB emulator and obtain it's connecting string from the Local Azure Emulator Portal 
 7. Update the MongoDB xConnect Connection String to point to your Azure CosmosDB Emulator MongoDB URL
 8. Browse the pages on your Sitecore Site to create Analytical data
-9. Confirm data is being stored in the UserGrid\Cassandra container of the UserGrid Stack
+9. Confirm data is being stored in the Azure CosmosDB Emulator using the Emulator Portal
+10.Confirm that the Experience Analytics Dashboard behaves as expected insdie of Sitecore
 
 ## Configuration
 
-The xConnect MongoDB Configuration needs to be updated in order to talk to Azure CosmosDB.
+The xConnect MongoDB Configuration needs to be updated in order to talk to Azure CosmosDB.  You simply enable the MongoDB Configuration file and update its connection string with the Azure CosmosDB MongoDB Connection string.
 
 
 ## Usage
 
-How does the end user use the Module?
+1. Our module is to be used as an example to quickly create a proof of concept around Sitecore and Azure CosmosDB xDB integration.
+2. Customers can be up in within hours testing real time queries that can be transfered to the full Azure Cosmos
+3. Customers can create queries based of Sitecore User Experience metrics such as Page Views, Bounce Rate, etc not to mention custom metrics and track them in real time.
 
-
-## Video
-
-Please provide a video highlighing your Hackathon module submission and provide a link to the video. Either a [direct link](https://www.youtube.com/watch?v=EpNhxW4pNKk) to the video, upload it to this documentation folder or maybe upload it to Youtube...
-
-[![Sitecore Hackathon Video Embedding Alt Text](https://img.youtube.com/vi/EpNhxW4pNKk/0.jpg)](https://www.youtube.com/watch?v=EpNhxW4pNKk)
