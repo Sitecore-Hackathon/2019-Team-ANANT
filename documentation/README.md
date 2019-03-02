@@ -27,7 +27,7 @@ Provide detailed instructions on how to install the module, and include screensh
 1. Use the Sitecore 9.1 Installation wizard to install Sitecore [package](https://dev.sitecore.net/Downloads/Sitecore_Experience_Platform/91/Sitecore_Experience_Platform_91_Initial_Release.aspx)
 2. Create some pages in your Sitecore Installation 
 3. Enable Experience Analytics
-4. [Docker](https://hub.docker.com/r/microsoft/azure-cosmosdb-emulator/) up the Latest Version of Azure CosmosDB Emulator or install manually here [package](https://aka.ms/cosmosdb-emulator)
+4. Install the Azure CosmosDB Emulator using our Custom [PowerShell](https://github.com/Sitecore-Hackathon/2019-Team-ANANT/blob/master/src/Foundation/Install_Cosmos_Emu.ps1) or install manually here [package](https://aka.ms/cosmosdb-emulator)
 5. Enable the MongoDB Sitecore xConnect Connector
 6. Enable the MongoDB Azure CosmosDB emulator and obtain it's connecting string from the Local Azure Emulator Portal 
 7. Update the MongoDB xConnect Connection String to point to your Azure CosmosDB Emulator MongoDB URL
